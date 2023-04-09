@@ -1,0 +1,9 @@
+policies:
+  - name: restrict-public-buckets
+    resource: aws.account
+    actions:
+      - type: set-s3-public-block
+        RestrictPublicBuckets: true
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true

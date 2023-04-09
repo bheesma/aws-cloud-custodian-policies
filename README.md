@@ -1,2 +1,10 @@
 # aws-cloud-custodian-policies
-AWS Cloud Custodian Policies
+Set of cloud custodian policies.
+
+## Dry-run
+For dryrun, add --dryrun to the command line.
+
+## Run on-demand policies
+```
+custodian run -s . ./on-demand/*
+```
