@@ -6,5 +6,5 @@ For dryrun, add --dryrun to the command line.
 
 ## Run on-demand policies
 ```
-custodian run -s . ./on-demand/*
+custodian run -s ./output ./on-demand/*
 ```
